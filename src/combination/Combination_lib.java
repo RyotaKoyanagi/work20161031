@@ -1,0 +1,19 @@
+package combination;
+
+public class Combination_lib {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+	public int getFactorial(int n) {
+		// TODO Auto-generated method stub
+		int f = 1; //ŠKæ‚Ì’l
+		for(int i = n; i >= 0; i--){
+			if(i == 0) f *= 1; 
+			else f *= i;
+		}
+		return f;
+	}
+
+}
